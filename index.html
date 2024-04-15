@@ -32,7 +32,7 @@
       <div id="unity-loading-bar">
         <img id="background-image" src="bg2.jpg" >
         <div id="unity-logo"><img src="logo.png"></div>
-        <div id="unity-progress-bar-empty">
+        <div id="unity-progress-bar-empty" style="display: none;">
           <div id="unity-progress-bar-full"></div>
         </div>
         <div class="spinner"></div>
@@ -42,11 +42,11 @@
     <script>
       const hideFullScreenButton = "1";
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/Build.loader.js";
+      const loaderUrl = buildUrl + "/LcLStarRail.github.io.loader.js";
       const config = {
-        dataUrl: buildUrl + "/Build.data.gz",
-        frameworkUrl: buildUrl + "/Build.framework.js.gz",
-        codeUrl: buildUrl + "/Build.wasm.gz",
+        dataUrl: buildUrl + "/LcLStarRail.github.io.data.gz",
+        frameworkUrl: buildUrl + "/LcLStarRail.github.io.framework.js.gz",
+        codeUrl: buildUrl + "/LcLStarRail.github.io.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "LcL-miHoYo-StarRail-Render1",
